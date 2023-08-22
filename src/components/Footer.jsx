@@ -2,6 +2,7 @@ import { Avatar, Box, HStack, Stack, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 const avatarSrc = "https://avatars.githubusercontent.com/u/99816828?v=4";
 const avatarSrc1 = "https://avatars.githubusercontent.com/u/81821995?v=4";
+const avatarSrc2 = "https://avatars.githubusercontent.com/u/142868989?s=400&u=e2c41111bc62b038ec2f24347b0ab55cdc1121ac&v=4";
 const Footer = () => {
   return (
     <Box bgColor={"blackAlpha.900"} color={"whiteAlpha.700"} minH={"48"} px={"16"} py={["16", "8"]}>
@@ -17,6 +18,7 @@ const Footer = () => {
             <HStack>
                 <Avatar p={4} boxSize={"28"} mt={["4", "0"]} src={avatarSrc} />
                 <Avatar p={4} boxSize={"28"} mt={["4", "0"]} src={avatarSrc1} />
+                <Avatar p={4} boxSize={"28"} mt={["4", "0"]} src={avatarSrc2} />
             </HStack>
           <Text>Our Founders</Text>
         </VStack>
